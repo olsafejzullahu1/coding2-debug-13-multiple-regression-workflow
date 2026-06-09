@@ -1,0 +1,17 @@
+[project]
+name = "coding2-debug-13-multiple-regression-workflow"
+version = "0.1.0"
+description = "Debugging practice repo for Coding 2: multiple regression and workflow design"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.2",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.5.2",
+    "statsmodels>=0.14.4",
+]
+
+[tool.uv]
+package = false
