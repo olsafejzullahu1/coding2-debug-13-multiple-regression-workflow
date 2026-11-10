@@ -8,10 +8,11 @@ fork of this homework repository by this date. No new branch or pull request is 
 ## The project
 
 How is salary associated with training hours, accounting for experience and education?
-`analysis.ipynb` extends Homework 1 using the same local `data/career_outcomes.csv`.
+`analysis.ipynb` extends Homework 1 using the revised salary extract in
+`data/career_outcomes.csv`.
 Apply the empirical workflow from our multiple-regression class:
 
-1. Inspect the data, document the estimation sample, and construct log salary.
+1. Inspect the data, document the estimation samples, and construct log salary.
 2. Explore relationships and investigate unusual observations.
 3. Fit a sequence of regressions and compare coefficients, R-squared, and uncertainty.
 4. Predict log salary, distinguish confidence and prediction intervals, and investigate residuals.
@@ -126,7 +127,10 @@ request, and you should not push homework answers to the main course repository.
 
 ## Data
 
-`data/career_outcomes.csv` is the same synthetic teaching dataset used in Homework 1.
-It is included in this repository; no download or course data-fetch step is needed.
+`data/career_outcomes.csv` is a revised version of the synthetic teaching dataset
+used in Homework 1, with some predictor values unavailable. It is included in
+this repository; no download or course data-fetch step is needed.
 Each row represents a synthetic worker. Salary is measured in thousands of euros,
-training in hours, and experience and education in years. Keep the supplied data unchanged.
+training in hours, and experience and education in years. Keep the supplied data
+unchanged and use this extract for the assignment. See [data/README.md](data/README.md)
+for provenance and construction details.
