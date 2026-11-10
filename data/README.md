@@ -15,7 +15,6 @@ The analysis uses salary in thousands of euros (`salary_k_eur`), training hours
 (`training_hours`), years of experience (`experience_years`), and years of education
 (`education_years`). The file also retains `sector`, `remote`, `ai_tool_use`, and
 `promoted` from the original teaching data; the specified models do not use them.
-Do not treat these data as evidence about real workers or causal training effects.
 
 ## Construction and reproducibility
 

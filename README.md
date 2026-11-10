@@ -14,8 +14,7 @@ Apply the empirical workflow from our multiple-regression class:
 
 1. Inspect the data, document the estimation samples, and construct log salary.
 2. Explore relationships and investigate unusual observations.
-3. Fit a sequence of regressions and compare coefficients, R-squared, and uncertainty.
-4. Inspect fitted values and investigate residuals.
+3. Fit a sequence of regressions and compare coefficients and R-squared.
 
 ## Your task
 
@@ -28,6 +27,24 @@ go wrong and whether you believe the numbers.
 
 You may use an LLM to help, but treat its suggestions as drafts: check them against the
 data and against what the lecture says a sound workflow looks like.
+
+## What you must submit
+
+Submit **`analysis.ipynb` with working code, saved outputs, and completed Answer 1–3
+cells**, plus any project configuration files you changed, such as `pyproject.toml`
+and `uv.lock`. Write your explanations in the notebook; no separate report is required.
+
+The notebook contains the full questions and dedicated spaces for your answers:
+
+| Question | What your answer must contain |
+| --- | --- |
+| 1. Get the notebook running | The execution problem, your repair, and how you verified it. |
+| 2. Check the coefficient-change claim | Initial results, numerical checks, and a short supported conclusion. |
+| 3. Interpret the corrected result | The full-model training coefficient's meaning and a one-sentence lookup of `HC0` in the linked statsmodels documentation. |
+
+First resolve execution problems. Record the initial results requested in Answer 2
+before changing the regression analysis. Then complete the three answers, restart
+the kernel, run all cells, and save the outputs. Keep the supplied dataset unchanged.
 
 ## Workflow: setup, debugging, and submission
 
@@ -99,8 +116,8 @@ assistant to interpret the saved text output. Do not put credentials in a prompt
 
 ### 5. Check and submit your work
 
-Complete the notebook's interpretation prompts using your corrected results. Restart its
-kernel, run all cells from top to bottom, and save the notebook with its outputs.
+Complete Questions 1–3 in the notebook's answer cells and its submission checklist.
+Restart the kernel, run all cells from top to bottom, and save the notebook with its outputs.
 
 From the **homework repository's folder**, check that `origin` points to your own fork:
 
