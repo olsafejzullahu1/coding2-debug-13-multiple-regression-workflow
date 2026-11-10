@@ -15,7 +15,7 @@ Apply the empirical workflow from our multiple-regression class:
 1. Inspect the data, document the estimation samples, and construct log salary.
 2. Explore relationships and investigate unusual observations.
 3. Fit a sequence of regressions and compare coefficients, R-squared, and uncertainty.
-4. Predict log salary, distinguish confidence and prediction intervals, and investigate residuals.
+4. Inspect fitted values and investigate residuals.
 
 ## Your task
 
